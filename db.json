@@ -1,0 +1,40 @@
+{
+    "post":[
+        {
+            "id": 1,
+            "title": "Exciting Adventure",
+            "description": "Join the thrilling journey of a brave hero facing challenges and discovering hidden treasures.",
+            "count_like": 120
+          },
+          {
+            "id": 2,
+            "title": "Mystical Wonderland",
+            "description": "Explore a magical land full of enchanting creatures and mysterious landscapes.",
+            "count_like": 85
+          },
+          {
+            "id": 3,
+            "title": "Epic Quest",
+            "description": "Embark on an epic quest to save the kingdom from dark forces and restore peace.",
+            "count_like": 200
+          },
+          {
+            "id": 4,
+            "title": "Sci-Fi Odyssey",
+            "description": "Journey through the cosmos, encountering futuristic technology and extraterrestrial life forms.",
+            "count_like": 150
+          },
+          {
+            "id": 5,
+            "title": "Comedy Chaos",
+            "description": "Laugh out loud as quirky characters navigate hilarious situations in this comedic escapade.",
+            "count_like": 75
+          },
+          {
+            "id": 6,
+            "title": "Romantic Bliss",
+            "description": "Experience the sweet moments and challenges of love in a charming romantic tale.",
+            "count_like": 180
+          }
+    ]
+}
