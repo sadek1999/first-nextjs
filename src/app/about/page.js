@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export const metadata = {
@@ -19,13 +20,15 @@ const Aboutpage = async () => {
 
             <h1 className='text-4xl'>Total posts ={posts.length} </h1>
             {posts.map((post) =>
-                <div key={post.id} className="card card-compact w-96 bg-base-100 mx-au shadow-xl">
+                <div key={post.id} className="card card-compact w-2/3 bg-slate-400 mx-auto m-2 shadow-xl">
                     
                     <div className="card-body">
                         <h2 className="card-title">{post.title}</h2>
                         <p>{post.description}</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <Link href={`about/${post.id}`}>
+                            <button className="btn btn-success">Buy Now</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
